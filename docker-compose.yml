@@ -1,6 +1,6 @@
 version: "3"
 services:
-  dental-service-keycloak:
+  auth-server:
     image: custom-keycloak
     container_name: auth-server
     build:
